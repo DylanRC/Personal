@@ -1,0 +1,2 @@
+The purpose of this project was to operate within a concrete set of interfaces/classes and functions. These interfaces and the overall architecture was poorly designed 
+such that ingenuitive solutions would be required in order to get the program functioning within specification.
