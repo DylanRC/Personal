@@ -1,0 +1,118 @@
+{
+  "name": "sexual_health_portal",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "@gov.au/accordion": "^7.0.8",
+    "@gov.au/animate": "^1.0.14",
+    "@gov.au/body": "^2.2.0",
+    "@gov.au/breadcrumbs": "^3.0.5",
+    "@gov.au/buttons": "^3.0.7",
+    "@gov.au/callout": "^3.0.2",
+    "@gov.au/card": "^0.3.2",
+    "@gov.au/core": "^3.0.0",
+    "@gov.au/cta-link": "^2.2.0",
+    "@gov.au/footer": "^3.0.5",
+    "@gov.au/form": "^0.1.5",
+    "@gov.au/grid-12": "^2.1.0",
+    "@gov.au/header": "^4.1.12",
+    "@gov.au/link-list": "^3.0.0",
+    "@gov.au/main-nav": "^1.0.8",
+    "@gov.au/side-nav": "^5.0.7",
+    "@gov.au/text-inputs": "^2.1.2",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "ag-grid-community": "^26.1.0",
+    "ag-grid-react": "^26.1.0",
+    "babel-polyfill": "^6.26.0",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "draft-js-import-html": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "sass-versioning": "^0.4.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cp ./src/pancake/fixed-react/*.js ./src/pancake/react -f && react-scripts build",
+    "watch": "npm-run-all --parallel start scss",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "scss": "node-sass --watch src -o src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "pancake": {
+    "auto-save": true,
+    "plugins": true,
+    "ignore": [],
+    "json": {
+      "enable": false,
+      "location": "src/pancake/",
+      "name": "pancake",
+      "content": {
+        "name": true,
+        "version": true,
+        "dependencies": true,
+        "path": true,
+        "settings": true
+      }
+    },
+    "css": {
+      "minified": true,
+      "modules": false,
+      "browsers": [
+        "last 2 versions",
+        "ie 8",
+        "ie 9",
+        "ie 10"
+      ],
+      "location": "src/pancake/css/",
+      "name": "pancake.min.css"
+    },
+    "sass": {
+      "modules": false,
+      "location": "src/pancake/sass/",
+      "name": "pancake.scss"
+    },
+    "js": {
+      "minified": true,
+      "modules": false,
+      "location": "src/pancake/js/",
+      "name": "pancake.min.js"
+    },
+    "react": {
+      "location": "src/pancake/react/"
+    }
+  },
+  "devDependencies": {
+    "@gov.au/pancake-sass": "^2.3.7",
+    "dotenv": "^10.0.0"
+  }
+}
