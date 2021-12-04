@@ -1,0 +1,323 @@
+html {
+  width: 50%;
+  margin: auto;
+  margin-top: 0.5vh;
+  background-color: #292929;
+}
+
+#mainContent {
+  min-height: 330px;
+  border: ridge white 2px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #4a4a4f;
+}
+
+
+/* Navbar Styling */
+#navBar {
+  width: 100%;
+  height: 40px;
+  border-bottom: ridge white 2px;
+  background-color: #4a4a4f;
+  display: flex;
+  text-shadow: none;
+  justify-content: center;
+  color: white;
+}
+
+#navPages {
+  width: 33%;
+  min-height: inherit;
+  float: left;
+  display: flex;
+  justify-content: left;
+}
+
+#title {
+  width: 34%;
+  min-height: inherit;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 3px;
+  cursor: default;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#navAuthentication {
+  width: 33%;
+  min-height: inherit;
+  float: right;
+  display: flex;
+  justify-content: right;
+}
+
+#logout {
+  cursor: pointer;
+}
+
+.navContent  {
+  width: 33%;
+  min-height: inherit;
+  text-align: center;
+  padding: 2.5%;
+  transition: background-color 1.5s, color 1.5s;
+}
+
+#navPages .navContent {
+  border-right: ridge white 2px;
+  text-decoration: none;
+  color: white;
+}
+
+#navAuthentication .navContent {
+  border-left: ridge white 2px;
+  text-decoration: none;
+  color: white;
+}
+
+#navPages .navContent:hover {
+  color: black;
+  background-color: white
+}
+
+#navAuthentication .navContent:hover {
+  color: black;
+  background-color: white
+}
+
+
+/* Home Page Styling */
+#homeContent p {
+  margin: 2%;
+  font-size: 20px;
+}
+
+#getStarted {
+  width: 15%;
+  display: block;
+  border: outset white 2px;
+  border-radius: 12px;
+  margin-left: 2%;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  color: white;
+  font-size: 18px;
+  background-color: #292929;
+  transition: color 1.5s, background-color 1.5s;
+}
+
+#getStarted:hover {
+  color: black;
+  background-color: white;
+}
+
+
+/* Login and Register Form Styling */
+#formContent {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 4%;
+}
+
+#formContent h1 {
+  text-align: center;
+}
+
+#formContent input {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2%;
+  display: block;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  border-bottom: solid white 1px;
+}
+
+#formContent input:focus {
+  border-bottom: solid cyan 1px;
+}
+
+#formContent button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#formContent p {
+  color: red;
+  text-align: center;
+}
+
+.formTitle {
+  text-align: center;
+  margin-top: 1%;
+}
+
+
+/* Login Styling */
+center {
+  margin-bottom: 1%;
+}
+
+#linkRegister{
+  color: white;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border-bottom: solid white 1px;
+  transition: color .5s, border-bottom 1s, text-shadow 0.5s;
+}
+
+#linkRegister:hover {
+  color: cyan;
+  text-shadow: none;
+  border-bottom: solid cyan 1px;
+}
+
+
+/* Table Styling */
+.ag-theme-alpine-dark {
+  width: 100%;
+  margin-top: 3%;
+  text-align: center;
+  justify-content: center;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+
+/* Stocks Page Styling */
+#stocksContent {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+#searchElements {
+  width: 65%;
+  min-height: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+}
+
+#searchTerm {
+  width: 50%;
+  display: flexbox;
+  float: right;
+  vertical-align: middle;
+  color: inherit;
+  border: none;
+  appearance: none;
+  background-color: #4a4a4f;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+
+#searchTerm option {
+  color: inherit;
+  background-color: inherit;
+  font-size: 12px;
+}
+
+#search {
+  border: none;
+  display: flexbox;
+  float: left;
+  padding-top: 2.5%;
+  background-color: inherit;
+  border-bottom: solid white 1px;
+  margin-right: 2%;
+  color: white;
+}
+
+#search:focus {
+  border-bottom: solid cyan 1px;
+}
+
+#stocksContent .ag-theme-alpine-dark {
+  height: 95.6vh;
+  margin-top: -1vh;
+}
+
+
+/* Stock Data Styling */
+#stockDataContent h2 {
+  margin: 2%;
+  color: cyan;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#stockDataContent p {
+  display: inline-block;
+  width: 100%;
+  color: red;
+  margin-left: 2%;
+}
+
+#stockDataContent .ag-theme-alpine-dark {
+  height: 40.5vh;
+}
+
+#searchByDate {
+  width: 80%;
+  min-height: 6vh;
+  display: block;
+  float: left;
+  margin-left: 2%;
+}
+
+#searchByDate input {
+  display: inline-flexbox;
+  vertical-align: middle;
+  border-radius: 10px;
+  color: white;
+  background-color: #292929;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+#searchByDate input:hover {
+  color: black;
+  background-color: white;
+}
+
+#searchByDate button {
+  margin-left: 1%;
+  height: 3.5vh;
+  text-align: center;
+  line-height: 10px;
+}
+
+#searchByDate label {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#unAuthenticated {
+  border: ridge white 2px;
+  padding: 3px;
+  text-decoration: none;
+  color: white;
+  text-shadow: none;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+#unAuthenticated:hover {
+  color: black;
+  background-color: white;
+}
+
+#chart {
+  display: block;
+  margin-top: 2%;
+  border-top: ridge white 2px;
+}
