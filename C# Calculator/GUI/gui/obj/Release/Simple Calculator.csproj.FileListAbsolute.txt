@@ -1,0 +1,15 @@
+C:\Users\dylan\source\repos\GUI\GUI\bin\Release\GUI.exe.config
+C:\Users\dylan\source\repos\GUI\GUI\bin\Release\GUI.exe
+C:\Users\dylan\source\repos\GUI\GUI\bin\Release\GUI.pdb
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\Simple Calculator.csproj.AssemblyReference.cache
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\MainWindow.baml
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\MainWindow.g.cs
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\App.g.cs
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI_MarkupCompile.cache
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI_MarkupCompile.lref
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI.g.resources
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI.Properties.Resources.resources
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\Simple Calculator.csproj.GenerateResource.cache
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\Simple Calculator.csproj.CoreCompileInputs.cache
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI.exe
+C:\Users\dylan\source\repos\GUI\GUI\obj\Release\GUI.pdb
